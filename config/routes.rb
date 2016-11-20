@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'pages/index'
+
   resources :posts
   root 'posts#index'
 
