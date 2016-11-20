@@ -9,14 +9,19 @@
   </head>
 
   <body>
-  	<u><h1 align= "center"> moawl project. </h1></u> <br>
-  	<div align= "center">
-  	<a href= "about.html.erb">about </a>
-
+    <div align = "center">
+      <%= link_to root_path do %>
+        <%= image_tag "kcc.jpg" %>
+      <% end %>
     </div>
-  	<h2 align="center"> Mother of all word lists</h2>
-  	<h3 align="center"> Consolidated word list from Barrons, ETS, Manhattan that conatins meanings from answer options</h3>
-    <h2> moawl contains words from the articles of The New Yorker, The New York Times </h2>
+    <div align= "center">
+  	<u><h1 align= "center"> moawl project. </h1></u> <br>
+  	
+        <h2 align="center"> Mother of all word lists is a onsolidated word list from Barrons, ETS, Manhattan that conatins meanings from answer options</h2>
+         
+      <h2 align ="center"> moawl contains words from the articles of The New Yorker, The New York Times </h2>
+  
+    </div>
   
 <div align ="center">
   	<%=  link_to "Home", root_path %>
